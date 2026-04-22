@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.todo h1{
+    font-size: 40px;
+    color: rgb(23, 23, 223);
+    margin: 10px;
+}
+.todo h3{
+margin: 20px 10px;
+}
+.myform input{
+    width: 400px;
+    padding: 7px;
+    border: 1px solid;
+    border-radius: 7px;
+}
+input:hover{
+    box-shadow: 0px 0px 5px 5px rgb(183, 182, 182);
+    outline: none;
+}
+.btn{
+    position: fixed;
+    right: 550px;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid rgb(100, 104, 200);
+    color: rgb(100, 104, 200);
+    border-radius: 5px;
+}
